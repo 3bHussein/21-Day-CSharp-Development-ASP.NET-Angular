@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, Hussein!");
-Console.ReadLine();
+
 
 
 string name;
@@ -9,11 +9,24 @@ float total;
 char sym;
 bool vote;
 
+ int num2= 1;
+ int num3;
+Console.WriteLine($"num2 {num2}");
 
-static int add(int x)
-{
-    return null;
-}
+Console.WriteLine("please enter your num :)");
+num3 = Convert.ToInt16(Console.ReadLine());
+
+Console.WriteLine($"your number is {num3}");
+Console.ReadLine();
+
+
+
+
+
+//static int add(int x)
+//{
+//    return null;
+//}
 
 
 
