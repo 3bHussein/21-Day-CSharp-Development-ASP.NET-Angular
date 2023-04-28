@@ -1,0 +1,15 @@
+/Users/elhussein/Documents/Development/DotNet/21-Day-CSharp-Development-ASP.NET-Angular/Refresh/BackToCS/BackToCS/bin/Debug/net6.0/BackToCS
+/Users/elhussein/Documents/Development/DotNet/21-Day-CSharp-Development-ASP.NET-Angular/Refresh/BackToCS/BackToCS/bin/Debug/net6.0/BackToCS.deps.json
+/Users/elhussein/Documents/Development/DotNet/21-Day-CSharp-Development-ASP.NET-Angular/Refresh/BackToCS/BackToCS/bin/Debug/net6.0/BackToCS.runtimeconfig.json
+/Users/elhussein/Documents/Development/DotNet/21-Day-CSharp-Development-ASP.NET-Angular/Refresh/BackToCS/BackToCS/bin/Debug/net6.0/BackToCS.dll
+/Users/elhussein/Documents/Development/DotNet/21-Day-CSharp-Development-ASP.NET-Angular/Refresh/BackToCS/BackToCS/bin/Debug/net6.0/ref/BackToCS.dll
+/Users/elhussein/Documents/Development/DotNet/21-Day-CSharp-Development-ASP.NET-Angular/Refresh/BackToCS/BackToCS/bin/Debug/net6.0/BackToCS.pdb
+/Users/elhussein/Documents/Development/DotNet/21-Day-CSharp-Development-ASP.NET-Angular/Refresh/BackToCS/BackToCS/obj/Debug/net6.0/BackToCS.csproj.AssemblyReference.cache
+/Users/elhussein/Documents/Development/DotNet/21-Day-CSharp-Development-ASP.NET-Angular/Refresh/BackToCS/BackToCS/obj/Debug/net6.0/BackToCS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elhussein/Documents/Development/DotNet/21-Day-CSharp-Development-ASP.NET-Angular/Refresh/BackToCS/BackToCS/obj/Debug/net6.0/BackToCS.AssemblyInfoInputs.cache
+/Users/elhussein/Documents/Development/DotNet/21-Day-CSharp-Development-ASP.NET-Angular/Refresh/BackToCS/BackToCS/obj/Debug/net6.0/BackToCS.AssemblyInfo.cs
+/Users/elhussein/Documents/Development/DotNet/21-Day-CSharp-Development-ASP.NET-Angular/Refresh/BackToCS/BackToCS/obj/Debug/net6.0/BackToCS.csproj.CoreCompileInputs.cache
+/Users/elhussein/Documents/Development/DotNet/21-Day-CSharp-Development-ASP.NET-Angular/Refresh/BackToCS/BackToCS/obj/Debug/net6.0/BackToCS.dll
+/Users/elhussein/Documents/Development/DotNet/21-Day-CSharp-Development-ASP.NET-Angular/Refresh/BackToCS/BackToCS/obj/Debug/net6.0/ref/BackToCS.dll
+/Users/elhussein/Documents/Development/DotNet/21-Day-CSharp-Development-ASP.NET-Angular/Refresh/BackToCS/BackToCS/obj/Debug/net6.0/BackToCS.pdb
+/Users/elhussein/Documents/Development/DotNet/21-Day-CSharp-Development-ASP.NET-Angular/Refresh/BackToCS/BackToCS/obj/Debug/net6.0/BackToCS.genruntimeconfig.cache
