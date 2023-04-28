@@ -3,6 +3,19 @@ Console.WriteLine("Hello, Hussein!");
 Console.ReadLine();
 
 
+string name;
+int num1;
+float total;
+char sym;
+bool vote;
+
+
+static int add(int x)
+{
+    return null;
+}
+
+
 
 
 //Day 1
