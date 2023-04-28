@@ -12,8 +12,12 @@ string name;
 int num1, num3, num2 = 1;
 
 float total;
+//to make machine accept float Div /* put f in end of number
+//example
+float total1 = 43.24f;
+
 char sym;
-bool vote;
+bool vote= true;
 
 
 
