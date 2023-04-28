@@ -2,7 +2,7 @@
 Console.WriteLine("Hello, Hussein!");
 
 
-
+//Defind variable 
 string name;
 int num1;
 float total;
@@ -11,18 +11,33 @@ bool vote;
 
  int num2= 1;
  int num3;
+
+//Best Way to concat string with Variable :)
 Console.WriteLine($"num2 {num2}");
 
 Console.WriteLine("please enter your num :)");
 num3 = Convert.ToInt16(Console.ReadLine());
 
 Console.WriteLine($"your number is {num3}");
+//another way to concat
+//Console.WriteLine("your number is "+num3);
+
+
 Console.ReadLine();
 
 
 
 
 
+
+
+
+
+
+
+
+
+//Refresh 
 //static int add(int x)
 //{
 //    return null;
