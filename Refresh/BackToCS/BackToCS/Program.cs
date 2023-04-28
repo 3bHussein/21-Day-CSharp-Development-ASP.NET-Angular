@@ -4,13 +4,18 @@ Console.WriteLine("Hello, Hussein!");
 
 //Defind variable 
 string name;
-int num1;
+
+//declear single variable 
+//int num1; int num2= 1; int num3;
+
+//Declear multi variables in one line :)
+int num1, num3, num2 = 1;
+
 float total;
 char sym;
 bool vote;
 
- int num2= 1;
- int num3;
+
 
 //Best Way to concat string with Variable :)
 Console.WriteLine($"num2 {num2}");
