@@ -10,15 +10,27 @@ string name;
 
 //Declear multi variables in one line :)
 int num1, num3, num2 = 1;
+//this one for more 16 digit
+long bignumber = 123123123123123123;
+
 
 float total;
 //to make machine accept float Div /* put f in end of number
 //example
 float total1 = 43.24f;
+//same for float
+double bigfloat_number;
 
 char sym;
 bool vote= true;
 
+
+
+string name1 = "ahmed";
+string v = name1.ToUpper();
+
+
+Console.WriteLine($"your name {v}");
 
 
 //Best Way to concat string with Variable :)
@@ -28,7 +40,7 @@ Console.WriteLine("please enter your num :)");
 num3 = Convert.ToInt16(Console.ReadLine());
 
 Console.WriteLine($"your number is {num3}");
-//another way to concat
+//another way to concat 
 //Console.WriteLine("your number is "+num3);
 
 
