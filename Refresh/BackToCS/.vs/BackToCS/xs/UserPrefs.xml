@@ -1,4 +1,25 @@
 ﻿<Properties StartupConfiguration="{97EC692A-9352-43DE-BFE2-E1BA0D6D1D70}|Default">
-  <MonoDevelop.Ide.ItemProperties.BackToCS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.BackToCS PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BackToCS/Program.cs">
+    <Files>
+      <File FileName="BackToCS/Program.cs" Line="58" Column="12" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BackToCS" expanded="True">
+            <Node name="BackToCS" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

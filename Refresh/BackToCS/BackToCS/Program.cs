@@ -39,9 +39,38 @@ Console.WriteLine($"num2 {num2}");
 Console.WriteLine("please enter your num :)");
 num3 = Convert.ToInt16(Console.ReadLine());
 
+
+
+
+num3.ToString();
+string total_num = "tot" + num3;
+
+Console.WriteLine(total_num);
+
 Console.WriteLine($"your number is {num3}");
-//another way to concat 
+
+
+
+
+//another way to concat
+
 //Console.WriteLine("your number is "+num3);
+
+
+
+//Coding Standards redone 2021
+/*
+ *Reasonable Variable Name  
+ * int age=25;
+ * String userAge="ahmed";
+ * 
+ * Proper Method Name 
+ * void checkinternet(){
+ * //your code 
+ * }
+ * Comments 
+ * //this comment
+ */
 
 
 Console.ReadLine();
