@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, Hussein!");
-
+Console.ForegroundColor = ConsoleColor.White;
+Console.BackgroundColor = ConsoleColor.Cyan;
 
 //Defind variable 
 string name;
@@ -48,9 +49,10 @@ string total_num = "tot" + num3;
 Console.WriteLine(total_num);
 
 Console.WriteLine($"your number is {num3}");
+Console.ForegroundColor = ConsoleColor.Blue;
 
 
-
+Console.ReadKey();
 
 //another way to concat
 
