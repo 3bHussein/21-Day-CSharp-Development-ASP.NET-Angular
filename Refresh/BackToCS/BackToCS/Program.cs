@@ -52,7 +52,46 @@ Console.WriteLine($"your number is {num3}");
 Console.ForegroundColor = ConsoleColor.Blue;
 
 
+
 Console.ReadKey();
+
+
+
+
+
+
+
+//test old class in .net3,5
+class CityPlace
+{
+
+    string _car;  //accespeted// /**/
+
+
+    [Flags]
+    public enum Docking
+    {
+        none=0,
+        top=1,
+        buttom=2,
+        left=3,
+        right=4
+    }
+
+    public 
+    //string 3cat; //wrong variable
+    public static string adda(string arg)
+    {
+
+        return null;
+    }
+
+
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("hello");
+    }
+}
 
 //another way to concat
 
