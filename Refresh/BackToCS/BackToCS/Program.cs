@@ -58,6 +58,19 @@ Console.ReadKey();
 
 
 
+/*
+public enum Docking
+{
+    none = 0,
+    top = 1,
+    buttom = 2,
+    left = 3,
+    right = 4
+}
+
+string docking = Docking.top.ToString();
+
+Console.WriteLine(docking);
 
 
 
@@ -68,30 +81,24 @@ class CityPlace
     string _car;  //accespeted// /**/
 
 
-    [Flags]
-    public enum Docking
-    {
-        none=0,
-        top=1,
-        buttom=2,
-        left=3,
-        right=4
-    }
 
-    public 
+
+    //Console.WriteLine("hello");
+
+
     //string 3cat; //wrong variable
-    public static string adda(string arg)
-    {
+//    public static string adda(string arg)
+//    {
 
-        return null;
-    }
+//        return null;
+//    }
 
 
-    public static void Main(string[] args)
-    {
-        Console.WriteLine("hello");
-    }
-}
+//    public static void Main(string[] args)
+//    {
+//        Console.WriteLine("hello");
+//    }
+//}
 
 //another way to concat
 
