@@ -41,6 +41,10 @@ Console.WriteLine("please enter your num :)");
 try
 {
     num3 = Convert.ToInt16(Console.ReadLine());
+    num3.ToString();
+    string total_num = "tot" + num3;
+    Console.WriteLine(total_num);
+    Console.WriteLine($"your number is {num3}");
 
 }
 
@@ -50,14 +54,6 @@ catch
 }
 
 
-
-num3.ToString();
-string total_num = "tot" + num3;
-
-Console.WriteLine(total_num);
-
-
-Console.WriteLine($"your number is {num3}");
 
 Console.BackgroundColor = ConsoleColor.DarkGreen;
 Console.ForegroundColor = ConsoleColor.Red;
