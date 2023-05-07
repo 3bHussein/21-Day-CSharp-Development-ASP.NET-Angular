@@ -57,6 +57,8 @@ Console.ReadKey();
 
 
 
+Console.BackgroundColor = ConsoleColor.Black;
+
 
 /*
 public enum Docking
