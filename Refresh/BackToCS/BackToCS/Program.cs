@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, Hussein!");
-Console.ForegroundColor = ConsoleColor.White;
-Console.BackgroundColor = ConsoleColor.Cyan;
+//Console.ForegroundColor = ConsoleColor.White;
+//Console.BackgroundColor = ConsoleColor.Cyan;
 
 //Defind variable 
 string name;
@@ -38,8 +38,16 @@ Console.WriteLine($"your name {v}");
 Console.WriteLine($"num2 {num2}");
 
 Console.WriteLine("please enter your num :)");
-num3 = Convert.ToInt16(Console.ReadLine());
+try
+{
+    num3 = Convert.ToInt16(Console.ReadLine());
 
+}
+
+catch
+{
+    Console.WriteLine("error while add number");
+}
 
 
 
@@ -48,17 +56,16 @@ string total_num = "tot" + num3;
 
 Console.WriteLine(total_num);
 
+
 Console.WriteLine($"your number is {num3}");
-Console.ForegroundColor = ConsoleColor.Blue;
+
+Console.BackgroundColor = ConsoleColor.DarkGreen;
+Console.ForegroundColor = ConsoleColor.Red;
 
 
 
-Console.ReadKey();
+//Console.ReadKey();
 
-
-
-Console.BackgroundColor = ConsoleColor.Black;
-Console.BackgroundColor=ConsoleColor.DarkGreen
 
 /*
 public enum Docking
