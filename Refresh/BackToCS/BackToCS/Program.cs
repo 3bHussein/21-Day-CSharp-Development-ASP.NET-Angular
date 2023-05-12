@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System;
+
 Console.WriteLine("Hello, Hussein!");
 //Console.ForegroundColor = ConsoleColor.White;
 //Console.BackgroundColor = ConsoleColor.Cyan;
@@ -62,6 +64,8 @@ Console.ForegroundColor = ConsoleColor.Red;
 
 
 
+
+
 //Console.ReadKey();
 
 
@@ -90,17 +94,17 @@ class CityPlace
 
 
 
-    //Console.WriteLine("hello");
+//Console.WriteLine("hello");
 
 
-    //string 3cat; //wrong variable
+//string 3cat; //wrong variable
 //    public static string adda(string arg)
 //    {
 
 //        return null;
 //    }
 
-
+// pulbic static int 
 //    public static void Main(string[] args)
 //    {
 //        Console.WriteLine("hello");
@@ -127,6 +131,28 @@ class CityPlace
  * //this comment
  */
 
+
+// Test   Types Float ,Double ,int ,bool aslo Convert
+
+double Db_Number=4;
+
+int in_Number;
+in_Number = (int)Db_Number;
+
+in_Number.ToString();
+
+bool IsOn=true;
+float Fl_Number = 13.74F;
+
+string MyBoolString = IsOn.ToString();
+
+
+string St_Num = "54";
+int Num_F_ST = Int16.Parse(St_Num);
+Console.WriteLine(Num_F_ST);
+//Console.WriteLine(St_Num.GetType());
+
+Console.WriteLine($"Hello from here with convert from double number to int number {Fl_Number}{MyBoolString}");
 
 Console.ReadLine();
 
