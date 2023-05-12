@@ -154,12 +154,15 @@ Console.WriteLine(Num_F_ST);
 
 string test = "hello";
 string test1 = "john";
-Console.WriteLine(string.Concat("",test,test1,""));
+Console.WriteLine(string.Concat("",test,test1,"gg"), "\n", test1.ToUpper(),test1.Substring(2));
+Console.WriteLine("this is breake \n ");
 
+Console.WriteLine(test1.ToUpper());
+Console.WriteLine(test1.Substring(2));
 //There Tree Ways to Write With Console
 //1.
 Console.WriteLine("hello "+St_Num);
-Console.WriteLine("hello");
+
 //
 //2.
 Console.WriteLine("Hello with second way {0}",St_Num);
