@@ -150,13 +150,28 @@ string MyBoolString = IsOn.ToString();
 string St_Num = "54";
 int Num_F_ST = Int16.Parse(St_Num);
 Console.WriteLine(Num_F_ST);
-//Console.WriteLine(St_Num.GetType());
+
+
+string test = "hello";
+string test1 = "john";
+Console.WriteLine(string.Concat("",test,test1,""));
+
+//There Tree Ways to Write With Console
+//1.
+Console.WriteLine("hello "+St_Num);
+Console.WriteLine("hello");
+//
+//2.
+Console.WriteLine("Hello with second way {0}",St_Num);
+//
+//3.
+Console.WriteLine($"this one thried way for write with Console {St_Num}");
+//
+//End of Documentation
 
 Console.WriteLine($"Hello from here with convert from double number to int number {Fl_Number}{MyBoolString}");
 
 Console.ReadLine();
-
-
 
 
 
