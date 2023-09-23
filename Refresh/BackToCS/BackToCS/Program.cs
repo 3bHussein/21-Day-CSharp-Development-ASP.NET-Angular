@@ -36,6 +36,7 @@ string v = name1.ToUpper();
 Console.WriteLine($"your name {v}");
 
 
+
 //Best Way to concat string with Variable :)
 Console.WriteLine($"num2 {num2}");
 
@@ -159,9 +160,61 @@ Console.WriteLine("this is breake \n ");
 
 Console.WriteLine(test1.ToUpper());
 Console.WriteLine(test1.Substring(2));
-//There Tree Ways to Write With Console
-//1.
-Console.WriteLine("hello "+St_Num);
+
+    //example for String Method 
+    string firstName = "Denis";
+    string lastName = "Panjuta";
+    string fullName = string.Concat("", firstName, lastName, "");
+    Console.WriteLine(firstName.Substring(2)); // output: “nis”
+    Console.WriteLine(firstName.ToLower()); // output: “denis”
+    Console.WriteLine(firstName.ToUpper()); // output: “DENIS”
+    Console.WriteLine(fullName.Trim()); // output: “DenisPanjuta”
+    Console.WriteLine(firstName.IndexOf('e')); // output: 1
+
+
+
+
+string MyName;
+Console.WriteLine("Please Enter your Name: ? \n");
+MyName = Console.ReadLine().ToUpper();
+Console.WriteLine($"your name is :{MyName}");
+MyName.Trim();
+Console.WriteLine($"your name with Trim{MyName}");
+
+Console.WriteLine(MyName.IndexOf('1'));
+
+// create Constants Feild
+const float PI = 3.1415F;
+
+
+// create void method and normal method
+// void method this one have stiace back without "return";
+// non void it's return Value ;
+void WriteSomeTing()
+{
+    Console.WriteLine("hello world ");
+}
+
+WriteSomeTing();
+
+int addx(int x,int y)
+{
+    int total = x + y;
+    return total;
+}
+int num32, num4;
+
+Console.WriteLine("Please enter two number to Count ");
+Console.WriteLine("please enter the firest number");
+num32 = Int32.Parse(Console.ReadLine());
+Console.WriteLine("please enter the second number");
+num4 = Int32.Parse(Console.ReadLine());
+Console.Write("the total will be ");
+Console.WriteLine(addx(num32, num4)); 
+
+    //There Tree Ways to Write With Console
+    //1.
+    Console.WriteLine("hello "+St_Num);
 
 //
 //2.
